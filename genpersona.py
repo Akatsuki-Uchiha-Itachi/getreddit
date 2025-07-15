@@ -1,8 +1,11 @@
+from dotenv import load_dotenv
+import os
 import requests
 import json
 
-API_KEY = "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"
-MODEL = "deepseek/deepseek-chat-v3-0324:free"
+load_dotenv()
+API_KEY = os.getenv("OPENROUTER_API_KEY")
+MODEL = os.getenv("OPENROUTER_MODEL")
 FILENAME = input("Enter scraped filename (e.g. username_numbered_scraped_with_links.txt): ").strip()
 
 with open(FILENAME, "r", encoding="utf-8") as f:
