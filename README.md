@@ -4,8 +4,8 @@ This tool scrapes a Reddit user's posts and comments using **Selenium**, then an
 
 ---
 ## Demo
-👉 [Youtube](https://youtu.be/B4XE-ae6Hr0)
-
+👉 [Working of getreddit](https://youtu.be/B4XE-ae6Hr0)
+👉 [Installation Tutorial](https://youtu.be/goXbOXd4SgU)
 ---
 ##  Features
 
