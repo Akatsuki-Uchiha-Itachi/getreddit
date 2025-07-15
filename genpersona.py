@@ -1,7 +1,7 @@
 import requests
 import json
 
-API_KEY = "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"
+API_KEY = "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"
 MODEL = "deepseek/deepseek-chat-v3-0324:free"
 FILENAME = input("Enter scraped filename (e.g. username_numbered_scraped_with_links.txt): ").strip()
 
@@ -58,7 +58,7 @@ if response.status_code == 200:
         f.write(content)
     print(f"\n✅ Persona saved to: {output_file}")
     print("\n--- Preview ---\n")
-    print(content[:1000], "...\n[truncated]")
+    print(content[:10000], "...\n[truncated]")
 else:
     print(f"❌ Failed ({response.status_code}):")
     print(response.text)
