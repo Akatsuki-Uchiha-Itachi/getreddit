@@ -1,11 +1,10 @@
-````markdown
-# 🧠 Reddit User Persona Generator
+# Reddit User Persona Generator
 
 This tool scrapes a Reddit user's posts and comments using **Selenium**, then analyzes the data using **LLMs (like DeepSeek)** to generate a full **user persona** — including traits like behavior, frustrations, motivations, and personality, with proper citation links.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - ✅ Scrapes Reddit posts and comments with links
 - ✅ Cleans and deduplicates raw text
@@ -15,7 +14,7 @@ This tool scrapes a Reddit user's posts and comments using **Selenium**, then an
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - Python 3.9+
 - Google Chrome installed
@@ -142,5 +141,3 @@ MIT License
 
 Created with ❤️ by [RavinderKumar](https://github.com/akatsuki-uchiha-itachi)
 Powered by Selenium, OpenRouter, DeepSeek
-
-``
