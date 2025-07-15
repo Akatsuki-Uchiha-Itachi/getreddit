@@ -3,7 +3,10 @@
 This tool scrapes a Reddit user's posts and comments using **Selenium**, then analyzes the data using **LLMs (like DeepSeek)** to generate a full **user persona** — including traits like behavior, frustrations, motivations, and personality, with proper citation links.
 
 ---
+## Demo
+👉 [Youtube](https://youtu.be/B4XE-ae6Hr0)
 
+---
 ##  Features
 
 - ✅ Scrapes Reddit posts and comments with links
