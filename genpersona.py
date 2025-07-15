@@ -1,7 +1,7 @@
 import requests
 import json
 
-API_KEY = "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"
+API_KEY = "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"
 MODEL = "deepseek/deepseek-chat-v3-0324:free"
 FILENAME = input("Enter scraped filename (e.g. username_numbered_scraped_with_links.txt): ").strip()
 

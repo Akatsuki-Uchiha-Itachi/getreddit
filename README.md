@@ -30,8 +30,8 @@ This tool scrapes a Reddit user's posts and comments using **Selenium**, then an
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/yourusername/reddit-persona-generator.git
-cd reddit-persona-generator
+git clone https://github.com/yourusername/getreddit.git
+cd getreddit
 ````
 
 ### 2. Create virtual environment
