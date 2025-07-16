@@ -88,7 +88,7 @@ And your script can automatically install the right driver!
 ### 🔹 Step 1: Scrape a Reddit user
 
 ```bash
-python scraper.py
+python v12.py
 # You'll be prompted to enter a Reddit username (no /user/)
 ```
 
@@ -101,14 +101,14 @@ This saves:
 ### 🔸 Step 2: Generate persona from text
 
 ```bash
-python generate_persona.py
+python genpersona.py
 # Enter the filename from step 1
 ```
 
 This saves:
 
 ```
-<username>_persona.txt
+<username>_numbered_scraped_with_links_persona.txt
 ```
 
 ---
